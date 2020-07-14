@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IR Para Investimentos no Exterior</title>
+    <link rel="stylesheet" href="CSS/modelo.css">
+</head>
+<body>
+    
+    <img id="esther" src="Images/Screen Shot 2020-07-13 at 10.07.11 PM.jpg" alt="Logo" srcset="">
+    <h1 id="title">PAGUE SEUS TRIBUTOS EM POUCOS SEGUNDOS COM A TAX PAY</h1>
+    
+    
+    <nav>
+        <a href="modelo.html">HOME</a>
+        <a href="modelo3.html">QUEM SOMOS</a>
+        <a href="modelo4.html">PLANOS</a>
+        <a href="modelo5.html">CONTATO</a>
+    </nav>
+    <hr>
+
+    <img src="Images/back.jpg" alt="" srcset="" id="background">
+   
+    <h1>A MELHOR CALCULADOR DE IR PARA INVESTIMENTOS NO EXTERIOR</h1>
+    <h2>De forma simples e objetiva, você conseguira realizar seus cálculos para pagamento dos seus ganhos de capital no exterior</h2>
+   
+    
+    <p>É super simples, vamos precisar de alguns dados, e dessa forma, já conseguiremos realizar o cálculo automática do valor que vocÊ deverá pagar. Já incluimos todas regras tributária.</p>
+
+    
+    <div id="container">
+        <form>
+        
+            <p> Qual o valor do investimento em USD? 
+                <input id="valorinvestimento" type="currency" placeholder="Digite aqui o valor em USD"></p>
+        
+            <p>Qual valor da venda em USD?
+                <input id="valorvenda" type="currency" placeholder="Digite aqui seu valor em USD"></p>
+
+            <p>Qual valor do PTAX no dia da compra?
+                <input id="valorvenda" type="number" placeholder="Digite aqui a data que comprou o ativo"></p>
+    
+            <p>Qual a data da compra?
+                <input id="valorvenda" type="date" placeholder="dd-mm-yyyy"></p>
+
+            <p>Qual valor do PTAX no dia da venda?
+                <input id="valorvenda" type="number" placeholder="Digite aqui a data que vendeu o ativo"></p>
+
+            <p>Qual a data da venda?
+                <input id="valorvenda" type="date" placeholder="dd-mm-yyyy"></p>
+                
+            
+    
+       <p> Utilizou o limite de R$ 35.000 no mês? <select id="limitetributo" onchange="dropDownchange();">
+            <option class="limit" value="  ">   </option>
+            <option class="limit" value="Sim">Sim</option>
+            <option class="limit" value="Não">Não</option>
+          </select>
+        </p>
+
+   
+
+    </form>
+
+   </div>
+
+
+    <div id="container_darf" onclick="capturar()">
+        GERAR DARF 
+    </div>
+
+
+    <script src="JS/app.js">
+
+    </script>
+
+    <div id="container_social">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Add font awesome icons -->
+        <a href="https://www.w3schools.com/html/html_links.asp" class="fa fa-facebook"></a>
+        <a href="https://www.w3schools.com/html/html_links.asp" class="fa fa-twitter"></a>
+        <a href="https://www.w3schools.com/html/html_links.asp" class="fa fa-instagram"></a>
+        <a href="https://www.w3schools.com/html/html_links.asp" class="fa fa-whatsapp"></a>
+
+    </div>
+
+    <div class="col-md-12 text-center">
+        <button class="loginBtn loginBtn--facebook" id="test">
+            <span>Login with Facebook</span>
+        </button>
+    </div>
+
+</body>
+
+</html>
